@@ -1,0 +1,27 @@
+sudo npm i -g typescript
+take type_server_fernado
+npm init -y
+touch Notes.txt
+code .
+tsc --init
+a//tsconfig.json
+  "target": "es6",
+  "sourceMap": true, 
+  "outDir": "./dist",
+  "moduleResolution": "node",
+tsc
+npm i tslint --save-dev
+npm i typescript --save-dev
+./node_modules/.bin/tslint --init
+a//tslint.json // para ver errores
+  "rules": {
+        "no-console":false
+    },
+npm i express cors dotenv
+npm i --save-dev @types/express
+//ejecutar almenos 1 vez 
+npm run watchtsc
+npm run dev
+npm i --save-dev @types/cors
+npm install --save sequelize //https://sequelize.org/
+npm install --save mysql2

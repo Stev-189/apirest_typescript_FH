@@ -1,0 +1,30 @@
+//Rest Client
+@api=http://localhost:8000/api/usuarios
+
+
+###
+GET {{api}}
+
+###
+GET {{api}}/2
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+  "nombre":"stev",
+  "email":"stddsev@gmail.com"
+}
+
+###
+PUT {{api}}/2
+Content-Type: application/json
+
+{
+  "nombre":"stevss",
+  "email":"stddsasaev@gmail.com"
+}
+
+###
+DELETE {{api}}/2
